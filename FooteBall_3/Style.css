@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 1250px;
+    height: 580px;
+    border: 2px solid red;
+    display: flex;
+}
+#play{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    border: 2px solid red;
+    background-image: url("./ground.png");
+    background-size: 100% 100%;
+}
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+}
+#pyr1{
+    top: 220px;
+    left : 125px;
+    transform: scaleX(-1);
+}
+#pyr2{
+    top: 0px;
+    left : 650px;
+    /* transform: scaleX(-1); */
+}
+#pyr3{
+    top: 220px;
+    left : 1030px;
+}
+#pyr4{
+    top: 500px;
+    left : 550px;
+    transform: scaleX(-1);
+}
+#ball{
+    width: 40px;
+    height: 40px;
+    top: 280px;
+    left : 220px;
+}
